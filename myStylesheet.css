@@ -1,0 +1,56 @@
+body
+{
+    background-color: #1b161b;
+}
+
+h1, h2, p
+{
+ color: #866f85;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #282128;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: #866f85;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #362c35;
+  color: white;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: #DFD3E3;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
